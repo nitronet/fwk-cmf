@@ -1,0 +1,24 @@
+{
+    "name": "nitronet/fwk-cmf",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "neiluJ",
+            "email": "julien@nitronet.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "fwk/core": "dev-master",
+        "fwk/di": "dev-master",
+        "fwk/db": "dev-master",
+        "fwk/form": "dev-master",
+        "symfony/yaml": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nitronet": "src"
+        }
+    }
+}
